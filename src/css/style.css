@@ -3,25 +3,44 @@
     background-color: aqua;
     justify-content: space-between;
     padding: 15px;
+    align-items: center; /* Opcional: centra verticalmente */
 }
+
 .navbar-right {
     display: flex;
-    justify-content: end;
-    }
-    
-    .navbar-right a {
-        text-decoration: none;
-        color: black;
-        margin: 10px;
-    }
-    
-    .navbar-right ul {
-        display: flex;
-        margin: 10px ;
-       list-style: none;
-    
-    }
-    .navbar-left {
-        display: flex;
-        align-items: center;
-    }
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.navbar-right a:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.navbar-right ul {
+    display: flex;
+    margin: 10px;
+    list-style: none;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    font-size: 20px;
+        margin-left: 20px; 
+        color: yellow;
+        margin-top: -15px;
+}
+.cart :hover {
+    color: red;
+    cursor: pointer;
+}
