@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    padding: 15px;
+}
+.navbar-right {
+    display: flex;
+    justify-content: end;
+    }
+    
+    .navbar-right a {
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+    }
+    
+    .navbar-right ul {
+        display: flex;
+        margin: 10px ;
+       list-style: none;
+    
+    }
+    .navbar-left {
+        display: flex;
+        align-items: center;
+    }
