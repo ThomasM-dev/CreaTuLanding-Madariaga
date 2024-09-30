@@ -8,7 +8,7 @@ const NavBar = () => {
     <nav className="navbar">
       {/* Contenedor para el logo y nombre de la tienda */}
       <div className="navbar-left">
-        <img src=""  className="logo" />
+        <img src="/image/logo_tienda.jpeg"  className="logo" />
         <div className="nametienda">EcoTrendy</div>
       </div>
 

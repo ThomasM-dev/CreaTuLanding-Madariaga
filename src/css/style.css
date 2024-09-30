@@ -3,30 +3,7 @@
     background-color: aqua;
     justify-content: space-between;
     padding: 15px;
-    align-items: center; /* Opcional: centra verticalmente */
-}
-
-.navbar-right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.navbar-right a {
-    text-decoration: none;
-    color: black;
-    margin: 10px;
-}
-
-.navbar-right a:hover {
-    color: yellow;
-    cursor: pointer;
-}
-
-.navbar-right ul {
-    display: flex;
-    margin: 10px;
-    list-style: none;
+    align-items: center; /* Alinea verticalmente todos los elementos dentro de la navbar */
 }
 
 .navbar-left {
@@ -34,13 +11,39 @@
     align-items: center;
 }
 
+.navbar-right ul {
+    display: flex;
+    margin: 10px;
+    list-style: none;
+}
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar-right a:hover {
+    color: yellow;
+    cursor: pointer;
+}
+.navbar-right a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.logo {
+    width: 70px;             /* Ajusta el tamaño del logo */
+    height: 70px;            /* Mantén la altura y el ancho iguales para que sea un círculo */
+    border-radius: 50%;      /* Hace el logo redondo */
+    object-fit: cover;       /* Asegura que la imagen mantenga sus proporciones dentro del círculo */
+    margin-right: 20px;      /* Espacio entre el logo y el siguiente contenido */
+}
+.cart :hover {
+    color: red;
+    cursor: pointer;
+}
 .cart {
     font-size: 20px;
         margin-left: 20px; 
         color: yellow;
         margin-top: -15px;
-}
-.cart :hover {
-    color: red;
-    cursor: pointer;
 }
