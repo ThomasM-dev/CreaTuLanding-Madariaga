@@ -6,7 +6,7 @@ import '../css/style.css';
 const CartWidget = () => {
   return (
     <div className='cart'>
-      <FontAwesomeIcon icon={faCartShopping} /> <span>0</span>
+      <FontAwesomeIcon icon={faCartShopping} /> <span>2</span>
     </div>
   );
 };
