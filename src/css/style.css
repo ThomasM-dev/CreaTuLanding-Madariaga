@@ -37,3 +37,13 @@
     object-fit: cover;       /* Asegura que la imagen mantenga sus proporciones dentro del círculo */
     margin-right: 20px;      /* Espacio entre el logo y el siguiente contenido */
 }
+.cart :hover {
+    color: red;
+    cursor: pointer;
+}
+.cart {
+    font-size: 20px;
+        margin-left: 20px; 
+        color: yellow;
+        margin-top: -15px;
+}
