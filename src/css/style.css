@@ -31,11 +31,11 @@
     margin: 10px;
 }
 .logo {
-    width: 70px;             /* Ajusta el tamaño del logo */
-    height: 70px;            /* Mantén la altura y el ancho iguales para que sea un círculo */
-    border-radius: 50%;      /* Hace el logo redondo */
+    width: 70px;            
+    height: 70px;            
+    border-radius: 50%;      
     object-fit: cover;       /* Asegura que la imagen mantenga sus proporciones dentro del círculo */
-    margin-right: 20px;      /* Espacio entre el logo y el siguiente contenido */
+    margin-right: 20px;  
 }
 .cart :hover {
     color: red;
